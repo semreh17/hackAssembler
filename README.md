@@ -7,8 +7,8 @@ This program translates symbolic Hack Assembly Language (`.asm`) into 16-bit bin
 ## structure
 * `main.c`: handles file I/O and program execution flow.
 * `assembler.c`: contains the core logic for the two-pass assembly process.
-* `parser.c` /: identifying instruction types, translating mnemonic components (comp, dest, jump) into binary values.
-* `symbolTable.c` /: implements the dynamic hash table used to manage memory addresses for variables and jump labels.
+* `parser.c`: identifying instruction types, translating mnemonic components (comp, dest, jump) into binary values.
+* `symbolTable.c`: implements the dynamic hash table used to manage memory addresses for variables and jump labels.
 
 ### Compilation
 
